@@ -4,7 +4,7 @@
   "description": "Compares two configuration files and shows a difference",
   "type": "module",
   "main": "index.js",
-  "bin":{
+  "bin": {
     "gendiff": "bin/gendiff.js"
   },
   "scripts": {
@@ -14,5 +14,12 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "jest": "^29.5.0"
   }
 }
